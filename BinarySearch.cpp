@@ -19,7 +19,7 @@ void input()
     }
     cout << endl;
     cout << "=====================" << endl;
-    cout << "Masukkan elemen array";
+    cout << "Masukkan elemen array" << endl;
     cout << "=====================" << endl;
      for (int i = 0; i < nPanjang; i++)
     {
@@ -95,7 +95,7 @@ void binarySearch()
         {
             cout << "elemen" << x << "tidak ditemukan dalam array" << endl;
         }
-        cout << "ingin mencari lagi? (y/n): " << endl;
+        cout << "\ningin mencari lagi? (y/n): " << endl;
         cin >> ulang;
     } while (ulang == 'y' || ulang == 'Y');
 }
