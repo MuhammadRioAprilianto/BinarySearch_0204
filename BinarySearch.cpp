@@ -59,7 +59,7 @@ void display(){
     cout << endl;
 }
 
-void binary()
+void binarySearch()
 {
     char ulang;
     do
@@ -102,5 +102,8 @@ void binary()
 
 int main()
 {
-    
+    input();
+    bubbleSortArray();
+    display();
+    binarySearch();
 }
